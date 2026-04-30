@@ -1,0 +1,29 @@
+gitignore
+# --- IDE/Android Studio ---
+*.iml
+.gradle
+/local.properties
+/.idea/
+.DS_Store
+
+# --- Build Outputs ---
+# This ignores the build folders in the root and all modules
+/build
+/*/build
+/captures
+
+# --- C++ / Native ---
+.externalNativeBuild
+.cxx
+
+# --- Device / Logs ---
+*.log
+*.hprof
+
+# --- Gradle ---
+# We keep the wrapper files so others can build the project
+!/gradle/wrapper/gradle-wrapper.jar
+!/gradle/wrapper/gradle-wrapper.properties
+
+# --- OS Specific ---
+Thumbs.db
